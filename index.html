@@ -77,14 +77,14 @@
 
     <script>
         // SSPI Backend Configuration
-        const SHEET_ID = 'REPLACE_WITH_SHEET_ID'; // Replace with your Google Sheet ID
-        const GSHEET_API_KEY = 'REPLACE_WITH_API_KEY'; // Replace with your Google API Key
+        const SHEET_ID = '1LTA2g2pZsXYC-uDBDyrnXWaBMuClet63zy8ivsSnaJA'; // Replace with your Google Sheet ID
+        const GSHEET_API_KEY = 'AIzaSyBQrEt7J3nuuCm_iaoGLtfLPcqxyT9uSno'; // Replace with your Google API Key
 
                   async function loadDashboardData() {
                       try {
                 const status = document.getElementById('status');
 
-                if (SHEET_ID === 'REPLACE_WITH_SHEET_ID') {
+                if (SHEET_ID === '1LTA2g2pZsXYC-uDBDyrnXWaBMuClet63zy8ivsSnaJA') {
                     status.innerHTML = '<div class="error">Dashboard is configured but needs Google Sheets credentials. See setup instructions below.</div>';
                     showInstructions();
                     return;
